@@ -50,8 +50,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 25px;
-  width: 280px;
+  gap: 20px;
+  width: 300px;
   height: 50px;
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
@@ -165,11 +165,104 @@
   border: none;
 }
 
+/* Online Games Section Styles */
+
+.online-games-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.online-games-des {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.online-games-des-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.online-games-des1 {
+  color: #0b0223;
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+}
+.online-games-des2 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+.online-games-des3 {
+  color: #534c64;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -30px;
+}
+.online-games-pic {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.box-aaa,
+.box-bbb,
+.box-ccc,
+.box-ddd {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 260px;
+  height: 380px;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 260px;
+  height: 380px;
+  border-radius: 8px;
+}
+.box1 {
+  background-image: url("images/Rectangle\ 4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box2 {
+  background-image: url("images/Rectangle\ 5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box3 {
+  background-image: url("images/Rectangle\ 7.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box4 {
+  background-image: url("images/Rectangle\ 6.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
+  border: 5px solid #ff42a5;
+  border-radius: 8px;
+}
+
 
 /* relative position Section styles */
 
 .position-section {
-  /* max-height: 800px; */
   display: flex;
   flex-direction: row;
   padding-top: 120px;
@@ -180,7 +273,7 @@
   flex-direction: column;
   margin-right: 50px;
   justify-items: center;
-  }
+}
 .position-section-pic {
   width: 50%;
   margin-left: 100px;
@@ -207,22 +300,30 @@
   font-size: 18px;
   font-weight: 400;
 }
-.position-section-pic{
+.position-section-des1,
+.position-section-des2,
+.position-section-des3,
+.position-section-des4 {
+  margin: 0;
+  padding: 0;
+}
+.position-section-pic {
   position: relative;
 }
 .horse-man {
   position: absolute;
-  width: 65%;
-  height: 80%;
+  width: 55%;
+  height: 150%;
   border-radius: 8px;
 }
 .angela {
   position: relative;
-  width: 30%;
-  height: 40%;
-  right: 100px;
-  top: 300px;
+  width: 25%;
+  height: 70%;
+  right: 110px;
+  top: 270px;
 }
+
 
 
 /* game buttons section styles*/
