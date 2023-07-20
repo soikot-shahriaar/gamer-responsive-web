@@ -78,7 +78,7 @@
 .banner-pictures {
   width: 50%;
 }
-.banner-pictures img{
+.banner-pictures img {
   width: 70%;
   margin-left: 50px;
 }
@@ -91,7 +91,7 @@
   justify-content: center;
   background-image: url("images/Group 14.png");
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .play-goat {
@@ -163,4 +163,25 @@
   color: white;
   font-size: 18px;
   border: none;
+}
+
+/* responsive layout for smaller devices */
+@media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 100%;
+    padding: 100px 20px 200px 20px;
+    gap: 80px;
+  }
+  .nav-other-items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 100%;
+  }
 }
