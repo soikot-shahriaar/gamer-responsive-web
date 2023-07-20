@@ -22,12 +22,12 @@
   height: 55px;
   gap: 25px;
 }
-.nav-gamer {
+.gamer-word-nav {
   text-align: center;
-  font-size: 37px;
+  font-size: 38px;
   font-weight: 700;
 }
-.pink-g {
+.pink-g-nav {
   color: #ff42a5;
   font-size: 55px;
   font-weight: 700;
@@ -64,6 +64,8 @@
   color: #000000;
   font-size: 24px;
 }
+
+
 
 /* banner section styles */
 
@@ -164,6 +166,133 @@
   font-size: 18px;
   border: none;
 }
+
+
+
+/* game buttons section */
+
+.buttons-section {
+  padding: 100px;
+  margin-top: 200px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.btn6,
+.btn7,
+.btn8,
+.btn9 {
+  color: #0b0223;
+  font-weight: 600;
+  font-size: 20px;
+  height: 30px;
+  padding: 20px;
+  border-radius: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover,
+.btn5:hover,
+.btn6:hover,
+.btn7:hover,
+.btn8:hover,
+.btn9:hover {
+  color: #ff42a5;
+  border: 3px solid #ff42a5;
+}
+
+
+/* footer section styles */
+footer {
+  background-color: #0b0223;
+  color: white;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.footer-logo-gamer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.gamer-word-foot {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+.pink-g-foot {
+  color: #ff42a5;
+  font-size: 55px;
+  font-weight: 700;
+}
+.footer-list1 {
+  display: flex;
+}
+.footer-list1 li {
+  list-style: none;
+  margin-right: 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer-list2 {
+  display: flex;
+}
+.footer-list2 li {
+  list-style: none;
+  margin-right: 40px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.fa-brands {
+  font-size: 30px;
+  margin-left: 25px;
+}
+.last-part-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.foot-last-des {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 18px;
+}
+
+
 
 /* responsive layout for smaller devices */
 @media screen and (max-width: 576px) {
