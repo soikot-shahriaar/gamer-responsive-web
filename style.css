@@ -1,4 +1,168 @@
 /* work sans font from google fonts */
-*{
-    font-family: 'Work Sans', sans-serif;
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* navigation bar styles */
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding-left: 115px;
+}
+.nav-logo-gamer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 55px;
+  gap: 25px;
+}
+.nav-gamer {
+  text-align: center;
+  font-size: 37px;
+  font-weight: 700;
+}
+.pink-g {
+  color: #ff42a5;
+  font-size: 55px;
+  font-weight: 700;
+}
+.nav-other-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.nav-other-items-about,
+.nav-other-items-dev,
+.nav-other-items-follow-us {
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-other-items-follow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 280px;
+  height: 50px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+.fa-youtube {
+  color: #f61c0d;
+  font-size: 24px;
+}
+.fa-tiktok {
+  color: #000000;
+  font-size: 24px;
+}
+
+/* banner section styles */
+
+.banner {
+  display: flex;
+  align-items: center;
+  max-width: 1920px;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+}
+.banner-pictures {
+  width: 50%;
+}
+.banner-pictures img{
+  width: 70%;
+  margin-left: 50px;
+}
+.banner-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/Group 14.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.play-goat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.play-like {
+  color: #0b0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.goat {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.three-icons-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.three-icons-texts1,
+.three-icons-texts2,
+.three-icons-texts3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.three-icons-texts p {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.banner-buttons {
+  display: flex;
+  gap: 25px;
+  padding-right: 60px;
+}
+.banner-button1 {
+  padding: 20px 35px;
+  border-radius: 30px;
+  background-color: #f948b2;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+.banner-button2 {
+  padding: 20px 40px;
+  border-radius: 30px;
+  background-color: #4ec5f7;
+  color: white;
+  font-size: 18px;
+  border: none;
 }
