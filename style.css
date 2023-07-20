@@ -65,8 +65,6 @@
   font-size: 24px;
 }
 
-
-
 /* banner section styles */
 
 .banner {
@@ -168,8 +166,66 @@
 }
 
 
+/* relative position Section styles */
 
-/* game buttons section */
+.position-section {
+  /* max-height: 800px; */
+  display: flex;
+  flex-direction: row;
+  padding-top: 120px;
+}
+.position-section-des {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  justify-items: center;
+  }
+.position-section-pic {
+  width: 50%;
+  margin-left: 100px;
+}
+.position-section-des1 {
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.position-section-des2,
+.position-section-des3 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: right;
+}
+.position-section-des4 {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+}
+.position-section-pic{
+  position: relative;
+}
+.horse-man {
+  position: absolute;
+  width: 65%;
+  height: 80%;
+  border-radius: 8px;
+}
+.angela {
+  position: relative;
+  width: 30%;
+  height: 40%;
+  right: 100px;
+  top: 300px;
+}
+
+
+/* game buttons section styles*/
 
 .buttons-section {
   padding: 100px;
@@ -197,7 +253,7 @@
 .btn9 {
   color: #0b0223;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   height: 30px;
   padding: 20px;
   border-radius: 50px;
@@ -220,7 +276,6 @@
   color: #ff42a5;
   border: 3px solid #ff42a5;
 }
-
 
 /* footer section styles */
 footer {
@@ -291,8 +346,6 @@ footer {
   text-align: center;
   line-height: 18px;
 }
-
-
 
 /* responsive layout for smaller devices */
 @media screen and (max-width: 576px) {
